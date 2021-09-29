@@ -102,17 +102,6 @@ La solución se encuentra implementada en `pintaMI`.
 
 El resultado de usar la función con diferentes combinaciones de imágenes es: 
 
-
-
-I want to place 3 figures on top of each other and I figured out a way to do that using subcaption package. But, they appear as sub-figures and not the "main" figures. I think it's because of the package I used, but I found it very hard to place 3 figures on top of each other, if I just used 3 separate \begin{figure}, so I used this. Can I still use subcaption and turn them into "main" figures. I want to use subcaption because I was able to do what I needed, instantly, so I really like how simple it is. Also, there are other problems:
-
-    The "main" figure title shows up and I can't hide it.
-    This title and 3 figures are not properly placed at centre.
-    Also, the titles of 3 figures are pushed right! I want everything in centre and aligned nicely.
-    The figure title numbers are like this - (a), (b) and I want them to be like 1.: Title, like how the main title shows, but in bold font.
-
-Is it possible to do? Here's what I've used:
-
 \begin{figure}[htbp]
   \centering
   \begin{subfigure}{0.56\textwidth}
