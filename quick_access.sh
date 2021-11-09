@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Abrir carpeta de material
-# nautilus -w /home/blanca/repositorio/TFG &
+ nautilus -w /home/blanca/repositorio/Computer-vision/practica_1/ &
 
 # Abrir el código fuente en vscode
-code  /home/blanca/repositorio/Computer-vision/practica_1/practica_1.ipynb &
+code  /home/blanca/repositorio/Computer-vision/practica_1/ &
 
 
 # Abrir pdfs
